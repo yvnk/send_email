@@ -1,14 +1,15 @@
 {
   "name": "send_email",
   "version": "1.0.0",
-  "description": "",
+  "description": "send email using nodemailer",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
+    "start": "npx tsc index.ts && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "@yvnk",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.7",
